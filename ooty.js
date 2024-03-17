@@ -7,32 +7,27 @@ let thirdImg = true;
 let image = function () {
   if (firstImg) {
     accessImg1.style.display = "block";
-    //accessImg2.style.display = "none";
-    //accessImg3.style.display = "none";
+    accessImg2.style.display = "none";
+    accessImg3.style.display = "none";
     firstImg = false;
     secondImg = true;
-    thirdImg = true;
   } else if (secondImg) {
     accessImg2.style.display = "block";
     accessImg1.style.display = "none";
-    //accessImg3.style.display = "none";
-    firstImg = false;
+    accessImg3.style.display = "none";
+
     secondImg = false;
     thirdImg = true;
   } else if (thirdImg) {
-    accessImg1.style.display = "block";
+    accessImg1.style.display = "none";
     accessImg2.style.display = "none";
-    //accessImg3.style.display = "none";
-    firstImg = false;
-    secondImg = false;
+    accessImg3.style.display = "block";
     thirdImg = false;
   } else {
     accessImg1.style.display = "none";
     accessImg2.style.display = "none";
-    //accessImg3.style.display = "none";
+    accessImg3.style.display = "none";
     firstImg = true;
-    secondImg = true;
-    thirdImg = true;
   }
 };
 
