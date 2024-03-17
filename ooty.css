@@ -500,3 +500,6 @@ th {
     transform: translateY(-300%);
   }
 }
+td {
+  font-size: 20px;
+}

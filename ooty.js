@@ -57,8 +57,7 @@ let emergencyFunction = function () {
     mechdata.style.display = "none";
     mechdata2.style.display = "none";
     mechdata3.style.display = "none";
-    mechdata4.style.display = "none";
-    mechdata5.style.display = "none";
+
     heritage1 = true;
     emerg = false;
     map = true;
@@ -172,8 +171,7 @@ let assistanceFunction = function () {
     mechdata.style.display = "none";
     mechdata2.style.display = "none";
     mechdata3.style.display = "none";
-    mechdata4.style.display = "none";
-    mechdata5.style.display = "none";
+
     localEventsOoty = true;
     mech = true;
     map = true;
@@ -210,8 +208,7 @@ let autoDrivers = function () {
     mechdata.style.display = "none";
     mechdata2.style.display = "none";
     mechdata3.style.display = "none";
-    mechdata4.style.display = "none";
-    mechdata5.style.display = "none";
+
     heritage1 = true;
     auto = false;
     mech = true;
@@ -235,8 +232,7 @@ let cabDrivers = function () {
     mechdata.style.display = "none";
     mechdata2.style.display = "none";
     mechdata3.style.display = "none";
-    mechdata4.style.display = "none";
-    mechdata5.style.display = "none";
+
     mech = true;
     auto = true;
     cab = false;
@@ -268,8 +264,6 @@ let mechanics1 = function () {
     mechdata.style.display = "none";
     mechdata2.style.display = "none";
     mechdata3.style.display = "none";
-    mechdata4.style.display = "none";
-    mechdata5.style.display = "none";
 
     heritage1 = true;
     mech = true;
@@ -525,8 +519,7 @@ let ootyMap = function () {
     mechdata.style.display = "none";
     mechdata2.style.display = "none";
     mechdata3.style.display = "none";
-    mechdata4.style.display = "none";
-    mechdata5.style.display = "none";
+
     heritage1 = true;
     mech = true;
     map = false;
@@ -694,8 +687,7 @@ let localEvents = function () {
     mechdata.style.display = "none ";
     mechdata2.style.display = "none";
     mechdata3.style.display = "none";
-    mechdata4.style.display = "none";
-    mechdata5.style.display = "none";
+
     localEventsOoty = false;
     localPolice = true;
     local = true;
